@@ -1,0 +1,92 @@
+#background {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  background-color: #5dddd3;
+  z-index: -1;
+}
+
+#hair {
+  width: 160px;
+  height: 220px;
+  position: relative;
+  top: 59px;
+  left: 93px;
+  border-radius: 50% 50% 50% 50%;
+  background-color: brown;
+  z-index: 0;
+  box-shadow: 17px 7px 14px 1px;
+}
+
+.skin {
+  background-color: #fed198;
+}
+
+#face {
+  width: 107px;
+  height: 150px;
+  position: relative;
+  top: 31px;
+  left: 28px;
+  border-radius: 250% 220% 300% 263%;
+  z-index: 1;
+  box-shadow: 2px 2px 2px 2px black
+}
+
+.smallHair {
+  background-color: brown;
+}
+
+#left {
+  position: relative;
+    top: 8px;
+    left: -35px;
+    width: 96px;
+    height: 47px;
+    border-radius: 113px 90px 40px 26px;
+    transform: rotate(144deg);
+    box-shadow: 1px -2px 4px 1px;
+}
+
+#right {
+  transform: rotate(229deg);
+  position: relative;
+  top: -45px;
+  left: 44px;
+  width: 96px;
+  height: 47px;
+  border-radius: 90px 90px 10px 26px;
+  box-shadow: -3px -2px 2px 1px;
+}
+
+#top {
+  transform: rotate(229deg);
+      position: relative;
+      top: -99px;
+      left: 29px;
+      width: 40px;
+      height: 23px;
+      border-radius: 90px 90px 10px 26px;
+}
+
+#neck {
+  height: 71px;
+width: 42px;
+border-radius: 10px 10px 29px 30px;
+position: relative;
+top: 16px;
+left: 59px;
+}
+
+#jumper {
+  width: 130px;
+    height: 71px;
+    background-color: #fbb429;
+    position: relative;
+    top: 53px;
+    left: 112px;
+    border-radius: 263px 249px 175px 136px;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 12px 3px 9px 2px;
+}
